@@ -16,9 +16,4 @@ class RouteServiceProvider
         Route::middleware('web')->group(base_path('routes/buyer.php'));
         Route::middleware('web')->group(base_path('routes/payment.php'));
     }
-
-    protected function mapApiRoutes()
-    {
-        // Define API routes here
-    }
 }
